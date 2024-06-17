@@ -429,7 +429,6 @@ table {
 }
 .discover .block {
   margin-top: 98px;
-  margin-left: 80px;
 }
 .discover .row {
   display: flex;
@@ -511,7 +510,6 @@ table {
   width: 152px;
 }
 .discover .transition__card {
-  margin-left: 70px;
   padding-top: 50px;
   display: flex;
 }
