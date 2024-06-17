@@ -1,0 +1,26 @@
+.today {
+
+  .button {
+    .button {
+      &__explore {
+        width: 160px;
+        margin-left: 200px;
+        font-family: "Urbanist";
+        padding: 14px 20px;
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 8px;
+        border: 1px solid $bg-darck-gray;
+        background-color: $bg-purple;
+        color: $text-white;
+        margin-right: 20px;
+  
+        &:hover {
+          cursor: pointer;
+          opacity: 0.4;
+          transition: 0.2s;
+        }
+      }
+    }
+  }
+}

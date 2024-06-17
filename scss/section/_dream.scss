@@ -20,6 +20,8 @@
 
     &__input {
       margin-top: 15px;
+      width: 100%;
+      padding-right: 50px;
 
       &__input {
         background-color: $bg-black;
@@ -28,6 +30,8 @@
         color: $text-gray;
         font-size: 20px;
         font-weight: 500;
+        width: 100%;
+        
       }
     }
   }
@@ -39,6 +43,7 @@
     border: none;
     border-radius: 8px;
     word-spacing: 2px;
+    width: 150px;
     &:hover {
       cursor: pointer;
       opacity: 0.4;

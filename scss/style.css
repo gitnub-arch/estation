@@ -60,7 +60,6 @@ table {
   margin-left: 5px;
 }
 .header__logo {
-  margin-left: 70px;
   margin-top: 10px;
 }
 .header__menu {
@@ -89,7 +88,6 @@ table {
   width: 32px;
   height: 32px;
   border-radius: 60px;
-  margin-right: 15px;
   margin-top: -7px;
   border: none;
   opacity: 0.8;
@@ -111,7 +109,6 @@ table {
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 5px;
-  margin-right: 70px;
   background-color: #141414;
   border: 1px solid #4d4d4d;
   padding: 14px 20px 14px 20px;
@@ -322,11 +319,17 @@ table {
   opacity: 0.3;
   transition: 0.3s;
 }
+.footer__basement {
+  padding-left: 635px;
+}
 .footer .communication {
+  background-color: #1a1a1a;
+  padding-left: 635px;
+}
+.footer .communication__communication {
   display: flex;
   justify-content: space-between;
-  background-color: #1a1a1a;
-  margin-bottom: 100px;
+  width: 1440px;
 }
 .footer .communication__button {
   margin-top: 20px;
@@ -538,7 +541,6 @@ table {
 
 .properties {
   padding-bottom: 50px;
-  margin-left: 100px;
 }
 .properties__icon {
   padding-top: 100px;
@@ -571,7 +573,7 @@ table {
 }
 .properties .column {
   padding: 30px;
-  width: 355px;
+  width: 33%;
   border: 2px solid #262626;
   border-radius: 12px;
   margin-right: 20px;
@@ -710,7 +712,6 @@ table {
 
 .say {
   padding-bottom: 50px;
-  margin-left: 100px;
 }
 .say__icon {
   padding-top: 60px;
@@ -860,7 +861,6 @@ table {
 
 .questions {
   padding-bottom: 50px;
-  margin-left: 100px;
 }
 .questions__icon {
   padding-top: 60px;
@@ -1392,6 +1392,8 @@ table {
 }
 .dream .searche__input {
   margin-top: 15px;
+  width: 100%;
+  padding-right: 50px;
 }
 .dream .searche__input__input {
   background-color: #141414;
@@ -1400,6 +1402,7 @@ table {
   color: #999999;
   font-size: 20px;
   font-weight: 500;
+  width: 100%;
 }
 .dream .button {
   display: flex;
@@ -1408,6 +1411,7 @@ table {
   border: none;
   border-radius: 8px;
   word-spacing: 2px;
+  width: 150px;
 }
 .dream .button:hover {
   cursor: pointer;
@@ -1463,7 +1467,6 @@ table {
 }
 
 .happen {
-  margin-left: 100px;
   margin-bottom: 200px;
 }
 .happen__column {
@@ -1590,6 +1593,25 @@ table {
   color: #999999;
 }
 
+.today .button .button__explore {
+  width: 160px;
+  margin-left: 200px;
+  font-family: "Urbanist";
+  padding: 14px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 8px;
+  border: 1px solid #262626;
+  background-color: #703bf7;
+  color: #fff;
+  margin-right: 20px;
+}
+.today .button .button__explore:hover {
+  cursor: pointer;
+  opacity: 0.4;
+  transition: 0.2s;
+}
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
@@ -1597,6 +1619,8 @@ table {
 
 body {
   background-color: #141414;
+  font-family: "Urbanist";
+  overflow-x: hidden;
 }
 
 @media screen and (max-width: 1560px) {

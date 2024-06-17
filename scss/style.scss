@@ -19,6 +19,7 @@
 @import "./section/clients";
 @import "./section/dream";
 @import "./section/happen";
+@import "./section/today";
 
 .container {
   max-width: 1440px;
@@ -27,6 +28,8 @@
 
 body {
   background-color: $bg-black;
+  font-family: "Urbanist";
+  overflow-x: hidden;
 }
 
 @media screen and (max-width: 1560px) {

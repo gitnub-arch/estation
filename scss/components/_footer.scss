@@ -126,11 +126,19 @@
     }
   }
 
+  &__basement {
+    padding-left: 635px;
+  }
+
   .communication {
-    display: flex;
-    justify-content: space-between;
     background-color: $bg-light-black;
-    margin-bottom: 100px;
+    padding-left: 635px;
+    &__communication {
+      display: flex;
+      justify-content: space-between;
+      width: 1440px;
+    }
+  
 
     &__button {
       margin-top: 20px;
