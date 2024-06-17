@@ -14,7 +14,7 @@
 
   .button {
     margin-top: -15px;
-    margin-right: 130px;
+   
     margin-left: 300px;
     padding: 20px;
     width: 255px;
@@ -133,6 +133,11 @@
       }
     }
   }
+  .hr {
+    &:first-child {
+      margin: 0;
+    }
+  }
 
   .leaflet {
     display: flex;
@@ -164,7 +169,7 @@
       width: 52px;
       height: 52px;
       border-radius: 90px;
-      margin-right: 125px;
+      margin-right: 5px;
       border: none;
       opacity: 0.8;
       border: 1px solid $bg-gray;

@@ -320,7 +320,7 @@ table {
   transition: 0.3s;
 }
 .footer__basement {
-  padding-left: 635px;
+  display: flex;
 }
 .footer .communication {
   background-color: #1a1a1a;
@@ -393,7 +393,7 @@ table {
 }
 
 .hr {
-  margin: 50px 125px 0px 20px;
+  margin: 50px 5px 0px 20px;
   border: 1px solid #262626;
 }
 
@@ -549,7 +549,6 @@ table {
 }
 .properties .button {
   margin-top: -15px;
-  margin-right: 130px;
   margin-left: 300px;
   padding: 20px;
   width: 255px;
@@ -653,6 +652,9 @@ table {
   opacity: 0.4;
   transition: 0.2s;
 }
+.properties .hr:first-child {
+  margin: 0;
+}
 .properties .leaflet {
   display: flex;
   justify-content: space-between;
@@ -681,7 +683,7 @@ table {
   width: 52px;
   height: 52px;
   border-radius: 90px;
-  margin-right: 125px;
+  margin-right: 5px;
   border: none;
   opacity: 0.8;
   border: 1px solid #4d4d4d;
@@ -720,7 +722,7 @@ table {
 }
 .say__button {
   margin-top: -15px;
-  margin-right: 130px;
+  margin-right: 20px;
   margin-left: 300px;
   padding: 20px;
   width: 255px;
@@ -783,7 +785,6 @@ table {
 }
 .say__column {
   padding: 30px;
-  width: 355px;
   border: 2px solid #262626;
   border-radius: 12px;
   margin-right: 20px;
@@ -830,7 +831,7 @@ table {
   width: 52px;
   height: 52px;
   border-radius: 90px;
-  margin-right: 125px;
+  margin-right: 15px;
   border: none;
   opacity: 0.8;
   border: 1px solid #4d4d4d;
@@ -869,7 +870,7 @@ table {
 }
 .questions__button {
   margin-top: -15px;
-  margin-right: 130px;
+  margin-right: 20px;
   margin-left: 300px;
   padding: 20px;
   width: 255px;
@@ -931,7 +932,6 @@ table {
 }
 .questions__column {
   padding: 30px;
-  width: 355px;
   border: 2px solid #262626;
   border-radius: 12px;
   margin-right: 20px;
@@ -978,7 +978,7 @@ table {
   width: 52px;
   height: 52px;
   border-radius: 90px;
-  margin-right: 125px;
+  margin-right: 5px;
   border: none;
   opacity: 0.8;
   border: 1px solid #4d4d4d;
@@ -1372,7 +1372,7 @@ table {
 }
 
 .dream .container {
-  background: linear-gradient(345deg, rgb(20, 20, 20), rgb(38, 38, 38));
+  background: linear-gradient(95.93deg, #262626 -26.82%, rgba(38, 38, 38, 0) 40.46%);
 }
 .dream__title {
   padding: 100px;
