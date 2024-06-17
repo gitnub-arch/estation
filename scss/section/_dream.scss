@@ -39,6 +39,11 @@
     border: none;
     border-radius: 8px;
     word-spacing: 2px;
+    &:hover {
+      cursor: pointer;
+      opacity: 0.4;
+      transition: 0.2s;
+    }
     &__text {
       font-family: "Urbanist";
       color: $text-white;
