@@ -1,0 +1,44 @@
+@import "./vendors/reset";
+
+@import "./components/variebles";
+@import "./components/header";
+@import "./components/footer";
+@import "./components/typography";
+
+@import "./section/discover";
+@import "./section/properties";
+@import "./section/say";
+@import "./section/questions";
+
+// Sections
+@import "./section/ourjourney";
+@import "./section/ourvalues";
+@import "./section/achievements";
+@import "./section/experience";
+@import "./section/team";
+@import "./section/clients";
+@import "./section/dream";
+@import "./section/happen";
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: $bg-black;
+}
+
+@media screen and (max-width: 1560px) {
+  .container {
+    max-width: 1270px;
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .container {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+}

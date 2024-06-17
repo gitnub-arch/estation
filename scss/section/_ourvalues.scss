@@ -1,0 +1,59 @@
+.values {
+  margin-top: 150px;
+  .container {
+      display: flex;
+  }
+
+  &__texts {
+      width: 40%;
+      padding: 154.5px 80px 154.5px 0;
+  }
+
+  &__content {
+      width: 60%;
+      border: 1px solid $grey-15;
+      border-radius: 12px;
+      box-shadow: 0px 0px 0px 8px $shadow;
+      
+  }
+}
+
+.val {
+  padding: 60px 60px 40px 60px;
+  &__up {
+      display: flex;
+      padding-bottom: 29.5px;
+      border-bottom: 1px solid $grey-15 ;
+  }
+
+  &__icon {
+      display: flex;
+  }
+
+  &__title {
+      font-family:"Urbanist", sans-serif;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 36px;
+      color: $absolute-white;
+      text-justify: center;
+      padding: 19px 0 0 14px;
+  }
+
+
+
+  &__excellence {
+      padding-left: 30px;
+      border-left: 1px solid $grey-15;
+  }
+
+  &__commitment {
+      padding-left: 30px;
+      border-left: 1px solid $grey-15;
+  }
+
+  &__down {
+      padding-top: 29.5px;
+      display: flex;
+  }
+}

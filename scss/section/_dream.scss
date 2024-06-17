@@ -1,0 +1,95 @@
+.dream {
+  .container {
+    background: linear-gradient(345deg, $grey-08, $grey-15);
+  }
+
+  &__title {
+    padding: 100px;
+    width: 1150px;
+  }
+
+  .searche {
+    width: 1100px;
+    padding: 20px;
+    margin-left: 150px;
+    background-color: $bg-black;
+    border-radius: 12px 12px 0px 0px;
+    border: 10px solid $bg-light-black;
+    display: flex;
+    justify-content: space-between;
+
+    &__input {
+      margin-top: 15px;
+
+      &__input {
+        background-color: $bg-black;
+        border: none;
+        font-family: "Urbanist";
+        color: $text-gray;
+        font-size: 20px;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .button {
+    display: flex;
+    background-color: $bg-purple;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    word-spacing: 2px;
+    &__text {
+      font-family: "Urbanist";
+      color: $text-white;
+      font-size: 14px;
+      font-weight: 500;
+      margin-left: 10px;
+    }
+  }
+
+  .column {
+    display: flex;
+    justify-content: space-around;
+    background-color: $bg-black;
+    border: 1px solid $bg-darck-gray;
+    border-radius: 8px;
+     margin-left: 20px;
+     width: 236px;
+    &:first-child {
+      margin-left: 0px;
+    }
+
+    &__icon {
+      margin: 15px;
+      margin-top: 18px;
+    }
+
+    &__title {
+      margin: 20px;
+      font-family: "Urbanist";
+      color: $text-gray;
+      font-size: 14px;
+      font-weight: 500;
+    }
+  }
+
+  .arrow {
+    background-color: $bg-black;
+    border: none;
+  
+    &:hover {
+      cursor: pointer;
+      opacity: 0.4;
+      transition: 0.2s;
+    }
+  }
+  &__row {
+    display: flex;
+    background-color: $bg-light-black;
+    padding: 10px;
+    width: 1280px;
+    margin-left: 90px;
+    border-radius: 8px;
+  }
+}

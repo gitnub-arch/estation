@@ -1,0 +1,58 @@
+.experience {
+  margin-top: 150px;
+
+  &__cells {
+      width: 100%;
+  }
+
+  
+  &__column {
+      width: 33.33%;
+  }
+
+  &__texts {
+      margin-bottom: 80px;
+  }
+
+  
+}
+
+.row {
+  display: flex;
+  gap: 30px; 
+  margin-bottom: 50px;
+
+  &__stepnomber {
+      font-family: "Urbanist", sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 30px;
+      color: $absolute-white;
+  }
+
+  &__title {
+      font-family: "Urbanist", sans-serif;
+      font-size: 26px;
+      font-weight: 600;
+      line-height: 39px;
+      color: $absolute-white;
+      margin-bottom: 20px;
+  }
+
+  &__stepnomber {
+      border-left: 1px solid rgba(112, 59, 247, 1);
+      padding: 16px 20px;
+  }
+
+  &__lower {
+      border-top: 1px solid  rgba(112, 59, 247, 1);
+      border-right: 1px solid $grey-15;
+      border-bottom: 1px solid $grey-15;
+      border-left: 1px solid rgba(112, 59, 247, 1);
+      border-radius: 0 12px 12px 12px;
+      background: linear-gradient(120.79deg, #703BF7 -49.01%, rgba(112, 59, 247, 0) 13.65%);
+      padding: 50px 50px 20px 50px;
+      height: 267px;
+
+  }
+}

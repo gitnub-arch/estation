@@ -1,0 +1,63 @@
+.ourjourney {
+  margin-top: 100px;
+  .container {
+      display: flex;
+      position: relative;
+  }
+
+  &__text {
+      width: 50%;
+      margin: 67.5px 30px 67.5px 0;
+  }
+
+  &__glare {
+      position: absolute;
+      top: 20px;
+      left: -20px;
+      width: 68.4px;
+      height: 30px;
+  }
+
+  &__title {
+      margin-bottom: 10px;
+  }
+
+  // &__subtext {
+      
+  // }
+
+  &__images {
+      width: 50%;
+      margin-left: 30px;
+  }
+
+  &__image {
+      width: 100%;
+  }
+
+  &__users {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      margin-top: 80px;
+  }
+}
+
+.numbers {
+  width: 238.33px;
+  background: $grey-10;
+  border: 1px solid $grey-15;
+  border-radius: 12px;
+  padding: 24px 24px 0 24px;
+
+  &__title-num {
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 60px;
+      color: $absolute-white;
+  }
+
+  &__subtext {
+      padding-bottom: 24px;
+  }
+}

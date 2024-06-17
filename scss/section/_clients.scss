@@ -1,0 +1,95 @@
+.clients {
+  margin-top: 150px;
+
+  &__row {
+      display: flex;gap: 50px;
+  }
+
+  &__column {
+      padding: 50px;
+      width: 50%;
+      border: 1px solid $grey-15;
+      border-radius: 12px;       
+      box-shadow: 0px 0px 0px 8px rgba(25, 25, 25, 1);
+
+  }
+
+  &__cells {
+      margin-top: 80px;
+  }
+
+  &__company {
+      display: flex; 
+      justify-content: space-between;
+  }
+
+  &__devop {
+      display: flex;
+      gap: 30px;
+      margin: 40px 0 40px 0;
+  }
+
+  &__comment {
+      padding: 30px;
+      border: 1px solid $grey-15;
+      border-radius: 12px;
+  }
+}
+
+.comment {
+  &__title {
+      padding-bottom: 20px;
+  }
+
+  &__text {
+      font-family: "Urbanist", sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 27px;
+      color: $absolute-white;
+  }
+}
+
+.col {
+  &__title {
+      font-family: "Urbanist", sans-serif;
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 45px;
+      color: $absolute-white;
+  }
+
+  &__btn {
+      outline: none;
+      background: $grey-10;
+      border: 1px solid $grey-15;
+      border-radius: 10px;
+      font-family: "Urbanist", sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 27px;
+      color: $absolute-white;
+      height: 63px;
+      padding: 18px 24px 18px 24px;
+      cursor: pointer;
+      transition: 0.3s;
+  }
+
+  &__btn:hover {
+      transform: scale(1.1);
+  }
+
+  &__category {
+      border-left: 1px solid $grey-15;
+      padding-left: 30px;
+  }
+
+  &__cub-text,
+  &__lightning-text {
+      font-family: "Urbanist", sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 30px;
+      color: $absolute-white;
+  }
+}

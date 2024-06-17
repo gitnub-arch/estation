@@ -1,0 +1,113 @@
+.happen {
+  margin-left: 100px;
+  margin-bottom: 200px;
+  &__column {
+    border: 1px solid $bg-darck-gray;
+    width: 1340px;
+    height: 770px;
+    border-radius: 12px;
+  }
+  &__row {
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 30px;
+  }
+  &__wor {
+    display: flex;
+  }
+  .form {
+    margin-left: 50px;
+    line-height: 50px;
+    margin-bottom: 0;
+  }
+  .write {
+    display: flex;
+    margin-right: 15px;
+    margin-bottom: 30px;
+
+    &__input {
+      width: 595px;
+      border: 1px solid $bg-darck-gray;
+      border-radius: 8px;
+      background-color: $bg-light-black;
+    }
+    &__tupni {
+      width: 1240px;
+      height: 122px;
+      border: 1px solid $bg-darck-gray;
+      border-radius: 8px;
+      background-color: $bg-light-black;
+    }
+  }
+  &__head {
+    padding-bottom: 70px;
+  width: 1000px;
+  }
+  .icon {
+    margin-left: -30px;
+  }
+  .input {
+    border: 1px solid $bg-darck-gray;
+    border-radius: 8px;
+    width: 270px;
+    background-color: $bg-light-black;
+    &__phone {
+      margin-bottom: -5px;
+      margin-left: 10px;
+    }
+
+    &__input {
+      padding: 15px;
+      background-color: $bg-light-black;
+      color: $text-gray;
+      border: none;
+    }
+  }
+
+  .button {
+    margin-bottom: 70px;
+    margin-right: 45px;
+    &__primeri {
+      font-family: "Urbanist";
+      padding: 14px 20px;
+      font-size: 14px;
+      font-weight: 500;
+      border-radius: 8px;
+      border: 1px solid $bg-darck-gray;
+      background-color: $bg-purple;
+      color: $text-white;
+
+      &:hover {
+        cursor: pointer;
+        opacity: 0.4;
+        transition: 0.2s;
+      }
+    }
+  }
+  &__button {
+    padding: 10px;
+    background-color: $bg-black;
+    border: 1px solid $bg-darck-gray;
+    border-radius: 4px;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  .agreement {
+    display: flex;
+    margin-left: 50px;
+
+    &__h5 {
+      margin-left: 10px;
+      margin-top: 5px;
+      font-family: "Urbanist";
+      color: $text-gray;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    &__a {
+      color: $text-gray;
+    }
+  }
+}

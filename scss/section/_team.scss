@@ -1,0 +1,125 @@
+.team {
+  margin-top: 100px;
+
+  &__cells {
+      display: flex;
+      width: 100%;
+      gap: 30px;
+  }
+
+  &__texts {
+      margin-bottom: 80px;
+  }
+}
+
+.cell {
+  &__column {
+      width: 25%;
+      border: 1px solid $grey-15;
+      border-radius: 12px;
+      padding: 30px;
+  }
+
+  &__images {
+      position: relative;
+      
+  }
+
+  &__maximg {
+      width: 100%;
+  }
+
+  &__twitbtn {
+      position: absolute;
+      top: 85%;
+      left: 50%;
+      transform: translateX(-50%);
+      border: none;
+      outline: none;
+      // width:  76px;
+      // height: 52px;
+      padding: 14px 26px 14px 26px;
+      border-radius: 43px ;
+      background: $purple-60;
+      cursor: pointer;
+      transition: 0.3s;
+  }
+
+  &__twitbtn:hover {
+      border: 1px solid $purple-65;
+  }
+
+  &__text {
+      margin-top: 50px;
+      margin-bottom: 24px;
+  }
+
+  &__firstlastname {
+      font-family: "Urbanist", sans-serif;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 28px;
+      color: $absolute-white;
+      text-align: center;
+  }
+
+  &__jobtitle {
+      text-align: center;
+  }
+
+  &__fields {
+      position: relative;
+      width: 100%;
+  }
+
+  &__tgbtn {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      width: 44px;
+      height: 44px;
+      border-radius: 100px;
+      padding: 10px;
+      background: $purple-60;
+      border: none;
+      cursor: pointer;
+      opacity: .8;
+      transition: .3s;
+  }
+
+  &__tgbtn:hover {
+      opacity: 1;
+      transform: scale(1.5);
+  }
+
+  &__input {
+      outline: none;
+      border: 1px solid $grey-15;
+      border-radius: 100px;
+      background: $grey-10;
+      width: 85%;
+      // height: 72px;
+      padding: 22px 20px 22px 24px;
+      color: $absolute-white;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 28px;
+      
+  }
+
+  &__input:hover {
+      border: 1px solid $absolute-white;
+      
+  }
+
+  ::placeholder {
+      color: $absolute-white;
+      font-family: "Urbanist", sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 28px;
+      
+  }
+
+  
+}

@@ -1,0 +1,57 @@
+.h2 {
+  font-family: "Urbanist";
+  color: $text-white;
+  font-size: 38px;
+  font-weight: 600;
+  padding-bottom: 20px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.h3 {
+  font-family: "Urbanist";
+  color: $text-white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.span {
+  font-family: "Urbanist";
+  color: $text-gray;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.head {
+  padding-bottom: 70px;
+
+}
+
+.hr {
+  margin: 50px 125px 0px 20px;
+  border: 1px solid $bg-darck-gray;
+}
+
+
+.title {
+  font-family:"Urbanist", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+  color: $absolute-white;
+}
+
+.subtext {
+  font-family:"Urbanist", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  color: $grey-60;
+}
+
+.description {
+  margin-left: 25px;
+}
