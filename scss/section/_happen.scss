@@ -24,6 +24,28 @@
     display: flex;
     margin-right: 15px;
     margin-bottom: 30px;
+  
+
+    &__input {
+      width: 595px;
+      border: 1px solid $bg-darck-gray;
+      border-radius: 8px;
+      background-color: $bg-light-black;
+    }
+    &__tupni {
+      width: 1240px;
+      height: 122px;
+      border: 1px solid $bg-darck-gray;
+      border-radius: 8px;
+      background-color: $bg-light-black;
+    }
+  }
+  .writer {
+    display: flex;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+  
 
     &__input {
       width: 595px;

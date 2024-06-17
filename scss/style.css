@@ -1503,6 +1503,25 @@ table {
   border-radius: 8px;
   background-color: #1a1a1a;
 }
+.happen .writer {
+  display: flex;
+  margin-right: 15px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+.happen .writer__input {
+  width: 595px;
+  border: 1px solid #262626;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+}
+.happen .writer__tupni {
+  width: 1240px;
+  height: 122px;
+  border: 1px solid #262626;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+}
 .happen__head {
   padding-bottom: 70px;
   width: 1000px;
